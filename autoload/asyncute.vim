@@ -1,6 +1,6 @@
 scriptencoding utf-8
 
-if !exists('g:loaded_asyncute')
+if exists('g:loaded_asyncute')
 	finish
 endif
 let g:loaded_asyncute = 1
